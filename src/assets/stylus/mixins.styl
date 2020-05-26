@@ -1,0 +1,19 @@
+/*
+ * @File Name: mixins.styl
+ * @Description: 样式函数混入
+ * @Author: yogwang
+ * @Date: 2020-02-19 09:45:55
+ * @Last Modified by: yogwang
+ * @Last Modified time: 2020-02-22 19:46:07
+ */
+oneline()
+  word-wrap normal
+  text-overflow ellipsis
+  white-space nowrap
+  overflow hidden
+wrapline(maxline)
+  text-overflow ellipsis
+  display -webkit-box
+  -webkit-line-clamp maxline
+  -webkit-box-orient vertical
+  overflow hidden
